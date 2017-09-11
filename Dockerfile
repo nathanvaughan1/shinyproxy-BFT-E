@@ -17,10 +17,10 @@ RUN apt-get update && apt-get install -y \
     default-jdk \
     libxml2 \
     libxml2-dev \
-	netcdf
-
-# install netcdf4
-#CMD ["/usr/local/bin/install_netcdf4.sh"]	
+	libnetcdf-dev \
+	netcdf-bin \
+	netcdf-dbg \
+	netcdf-doc
 
 # install dependencies of the BFT-E app
 RUN R -e "install.packages(c('shiny','stringr','rcharts','plyr','reshape','ncdf4','rmarkdown','LBSPR','reshape2','ReporteRs','ggplot2','ReporteRsjars'), repos='https://cloud.r-project.org/')"
