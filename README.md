@@ -3,7 +3,7 @@ the BFT-E app is hosted at
 https://github.com/TahaImz/shinyapp_BFT-E_retrosTable
 
 The docker image hosted at 
-https://hub.docker.com/r/nathanvaughan/shinyproxy-BFT-E/
+https://hub.docker.com/r/nathanvaughan/shinyproxy-bft-e/
 
 it is automaticaly built from the shiny app repository hosted at  
 https://github.com/nathanvaughan1/shinyproxy-BFT-E
