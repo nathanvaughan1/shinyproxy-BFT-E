@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
 	netcdf-doc
 
 # install dependencies of the BFT-E app
-RUN R -e "install.packages(c('shiny','stringr','rcharts','plyr','reshape','ncdf4','rmarkdown','LBSPR','reshape2','ReporteRs','ggplot2','ReporteRsjars'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('shiny','stringr','DT','RCurl','XML','rCharts','plyr','reshape','ncdf4','rmarkdown','LBSPR','reshape2','ReporteRs','ggplot2','ReporteRsjars'), repos='https://cloud.r-project.org/')"
 
 # copy the app to the image
 RUN mkdir /root/BFT
